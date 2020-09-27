@@ -1,0 +1,281 @@
+/* _________________TAGS_________________ */
+
+body {
+  margin: 5% 10% 5% 10%;
+  padding: 0.1%;
+  text-align: center;
+  font-family: Arial;
+  box-shadow: 1px 1px 5px;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+  margin: 50px auto 0 500px;
+}
+h3 {
+  margin-top: 1px;
+  font-family: Times;
+  color: white;
+  font-size: 30px;
+}
+h5 {
+  text-align: left;
+  color: white;
+}
+p {
+  font-size: 12px;
+}
+ol {
+  list-style-type: upper-roman;
+}
+
+/* _________________HR (LINE)_________________ */
+.lefthr {
+margin-left: 35px;
+border: 1.9px solid black;
+background-color: black;
+border-radius: 15%;
+float: left;
+width: 20%;
+}
+.righthr {
+margin-left: 65px;
+width: 50%;
+border: 0.5px solid black;
+position:absolute;
+}
+.leftside-lefthr {
+margin-left: 35px;
+border: 1.9px solid white;
+background-color: white;
+border-radius: 15%;
+float: left;
+width: 20%;
+}
+.leftside-righthr {
+margin-left: 65px;
+width: 38%;
+border: 0.5px solid white;
+position:absolute;
+}
+/* _________________TOP-BAR_________________ */
+.TopTitle {
+}
+    h1 {
+      color: #ababab;
+      position: absolute;
+      margin-left: 350px;
+    }
+    em{
+      left: 10px;
+      line-height: 255px;
+      color: white;
+    }
+    .TitleColor {
+      color: black;
+      background-color: white;
+    }
+#FollowMe {
+  margin-top: 40px;
+  position: absolute;
+  height: 200px;
+  width: 50px;
+  margin-left: 1050px;
+}
+.TopContent {
+  height: 220px;
+  background-color: black;
+  position:relative;
+}
+
+.topborder {        /*black border with social*/
+  height: 150px;
+}
+.bottomborder {
+  margin-top: 30px;
+  height: 50px;
+  background-color: #4a4a4a;
+}
+
+/* _________________LEFT BAR_________________ */
+.profbox {
+  height: 250px;
+  width:260px;
+  background-color: #494748;
+  position: absolute;
+  margin-top: -170px;
+  padding-top: 4%;
+  border-top-right-radius: 30%;
+}
+
+.ProfileImage {
+  height: 95%;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+/*___*/
+#PROFI {
+  width:260px;
+  height: 220px;
+  padding-top: 10px;
+  top: 324px;
+  position: absolute;
+  border-bottom-right-radius: 10%;
+  background-color: #494748;
+}
+
+/*___*/
+#contact {
+  height: 310px;
+  width:180px;
+  top: 540px;
+  position: absolute;
+  background-color: #494748;
+}
+    .emoji {
+      font-size: 200%;
+    }
+    .incontact {
+      margin-left: 10px;
+      width: 150px;
+      border: 1px solid #494748; /*IF REMOVE BORDER CONTENT SHIFTS*/+
+    }
+/*___*/
+#award {
+  height: 335px;
+  width:180px;
+  top: 840px;
+  position: absolute;
+  background-color: #494748;
+
+}
+.award-content {
+  margin: auto 10px auto auto;
+}
+/* _________________INSIDE SOCIAL BAR (top right)_________________ */
+
+#homebox{
+  position: absolute;
+  margin-left: 91.6%;
+  background-color: black;
+  width: 8.3%;
+}
+.socialimg {
+  margin-top: 2%;
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.socialtext {
+  text-align: center;
+  margin-top: 11px; /*change to pixel = aligned text: precentage = misalign*/
+}
+/* _________________LEFTTEXT_________________ */
+.text {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+.texttitle {
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: black;
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  color: white;
+}
+/* _________________RIGHT-TEXT/SIDE_________________ */
+.righttext {
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: black;
+  background-color: #ebeef5;
+  width: 70%;
+}
+.rightordered {
+  font-size: 15px;
+}
+#rightside {
+
+  width:750px;
+  height:930px;
+  text-align: left;
+  margin: auto auto auto 300px;
+  padding: 1%;
+  color: black;
+}
+/* _________________RIGHT-IMG_________________ */
+.logos {
+  background-color: white;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+.L1 {
+  top: 315px;
+  right: 200px;
+}
+.L2 {
+  bottom: 174px;
+  right: 200px;
+}
+.L3 {
+  top: 930px;
+  right: 200px;
+}
+/* _________________SKILLS_________________ */
+.skill-td {
+  background-color: black;
+  border-radius: 100%;
+  border: 2px solid red;
+}
+.endbar { /*can use divs or HR for this but no*/
+  color: grey;
+  background-color: grey;
+  border-bottom-right-radius: 30%;
+  border-top-right-radius: 30%;
+}
+/*--ADDITIONAL DESIGN --*/
+.BottomCircleB {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 700px;
+  height: 70px;
+  width: 70px;
+}
+.BottomCircleB2 {
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 720px;
+  height: 50px;
+  width: 50px;
+}
+.BottomCircleB3 {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 650px;
+  height: 30px;
+  width: 30px;
+}
+.BottomCircleT {
+  position: absolute;
+  top: 120px;
+  left: 330px;
+  height: 70px;
+  width: 70px;
+}
+
+.BottomCircleT2 {
+  position: absolute;
+  top: 115px;
+  left: 290px;
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,119 @@
+/* _________________TAG SELECTOR_________________ */
+
+body {
+  margin: 4%;
+  background-color: white;
+  padding: 20px;
+  font-family: Arial;
+  text-align: center;
+  height: 100%;
+  box-shadow: 1px 1px 8px;
+}
+h1 {
+  font-size: 3.1rem;  /*rem = 16px*/
+}
+
+img {             /*middle affected*/
+    width:  100%;
+    height: 240px;
+    box-shadow: 2px 2px 8px;
+}
+a {               /*REMOVE UNDERLINE*/
+  text-decoration: none;
+}
+span {
+  background: black;
+  color: white;
+  text
+}
+.hrleft {
+    margin: 0 0 0 200px;
+    position: absolute;
+    border: 4px solid #dddce8;
+    border-top-left-radius: 100%;    /*2 because top left and top right radius affects each other- want fade out effect*/
+    width: 30%;
+}
+.hrright {
+  margin: 0 0 0 600px;
+  position: absolute;
+  border: 4px solid #dddce8;;
+  border-top-right-radius: 100%; /*looks nices - hmm*/
+  width: 30%;
+}
+/* _________________BUTTONS_________________ */
+#Buttons {
+  margin: 0px auto;  /*center buttons hmm looks nice*/
+}
+/* buttons */
+.button {
+  padding: 1% 1%; /*2nd 2% to 1% added 4th button*/
+  background-color: white;
+}
+
+/*mouse hover */
+.button:hover {
+  background-color: #ddd;
+}
+/* _________________TOPUP_________________ */
+#TopUp {
+  background: #f2fbff;
+  height: 600px;
+  text-align: left;
+}
+.TopImg {
+  float: right; /*with text*/
+  height: 600px;
+  width: 600px;
+}
+.TopText {
+  font-size: 1.8rem;      /*change font px to rem = 16px*/
+}
+#TopLeft {
+  margin-top: 20px;
+  height: 300px;
+  width:600px;
+  padding: 130px;
+  position: absolute;
+}
+.TopUpem {
+  position: absolute;
+  margin-top: -30px;
+}
+/* _________________MIDDLE-about (1st)_________________ */
+.text-center {   <!-- Delete because body = center-->
+  margin: 0;
+  padding: 20px;
+  font-family: Arial;
+}
+#About {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 100px;
+}
+/* _________________MIDDLE-my work (2nd)_________________ */
+.middlecontent {
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+}
+.middleh4 {
+  padding-top: 10px;   /*space between text n img*/
+}
+/* _________________CONTACT ME_________________ */
+.form {
+  width: 99%;    /*99% so (text) subject is above text area & DOESNT EXIT OUT OF BODY*/
+  padding: 12px;
+  border: 1px solid #ebe1e1;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+#submit {
+  background-color: blue;
+  color: white;
+  padding: 1% 2%;
+  border: 1px solid blue;
+}
+#submit:hover {
+  background-color: #afaded;
+  border-radius: 10%;
+}

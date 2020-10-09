@@ -16,7 +16,7 @@ h1 {
 img {             /*middle affected*/
     width:  100%;
     height: 240px;
-    box-shadow: 2px 2px 8px;
+
 }
 a {               /*REMOVE UNDERLINE*/
   text-decoration: none;
@@ -24,7 +24,7 @@ a {               /*REMOVE UNDERLINE*/
 span {
   background: black;
   color: white;
-  text
+
 }
 /* _________________HR (LINE)_________________ */
 .hrleft {
@@ -80,6 +80,31 @@ span {
   position: absolute;
   margin-top: -30px;
 }
+.to {
+  width: 140px;
+  margin-top: 50px;
+  border: 1px solid red;
+  background: white;
+}
+#resume {
+  text-align: center;
+
+  width: 70px;
+
+  display: inline-block;
+}
+.arrow {
+  float: right;
+  background: red;
+  width: 70px;
+  text-align: center;
+}
+.resumebtn {
+  color: white;
+}
+.arrow:hover {
+  background: #e00000;
+}
 /* _________________MIDDLE-about (1st)_________________ */
 .text-center {   <!-- Delete because body = center-->
   margin: 0;
@@ -92,15 +117,19 @@ span {
   padding-bottom: 100px;
 }
 /* _________________MIDDLE-my work (2nd)_________________ */
+#middlebox {
+  width: 100%;
+  height: 790px;
+
+}
 .middlecontent {
   margin: auto;
   width: 30%;
-  padding: 20px;
+  display: inline-block;
 }
-.middleh4 {
-  padding-top: 10px;   /*space between text n img*/
-}
+
 /* _________________CONTACT ME_________________ */
+
 .form {
   width: 99%;    /*99% so (text) subject is above text area & DOESNT EXIT OUT OF BODY*/
   padding: 12px;

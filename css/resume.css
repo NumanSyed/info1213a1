@@ -9,8 +9,6 @@ body {
 }
 h1 {
   font-size: 50px;
-  color: white;
-  margin: 50px auto 0 500px;
 }
 h3 {
   margin-top: 1px;
@@ -62,8 +60,9 @@ position:absolute;
 .TopTitle {
 }
     h1 {
-      color: #ababab;
+      color: black;
       position: absolute;
+      margin-top: 80px;
       margin-left: 350px;
     }
     em{
@@ -72,8 +71,8 @@ position:absolute;
       color: white;
     }
     .TitleColor {
-      color: black;
-      background-color: white;
+      background: black;
+      color: white;
     }
 #FollowMe {
   margin-top: 40px;
@@ -84,7 +83,7 @@ position:absolute;
 }
 .TopContent {
   height: 220px;
-  background-color: black;
+  background-color: #f2fbff;
   position:relative;
 }
 
@@ -92,44 +91,26 @@ position:absolute;
   height: 150px;
 }
 .bottomborder {
-  margin-top: 30px;
-  height: 50px;
+  margin-top: 55px;
+  height: 30px;
   background-color: #4a4a4a;
 }
+/* _________________PROFILE IMG_________________ */
+.ProfileImage {
+  height: 200px;
+  width: 170px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  right: 90px;
+}
+/*___*/
 
 /* _________________LEFT BAR_________________ */
-.profbox {
-  height: 250px;
-  width:260px;
-  background-color: #494748;
-  position: absolute;
-  margin-top: -170px;
-  padding-top: 4%;
-  border-top-right-radius: 30%;
-}
-
-.ProfileImage {
-  height: 95%;
-  width: 90%;
-  border: 1px solid white;
-  border-radius: 100%;
-}
-/*___*/
-#PROFI {
-  width:260px;
-  height: 220px;
-  padding-top: 10px;
-  top: 324px;
-  position: absolute;
-  border-bottom-right-radius: 10%;
-  background-color: #494748;
-}
-
-/*___*/
 #contact {
-  height: 310px;
+  height: 420px;
   width:180px;
-  top: 540px;
+  top: 215px;
   position: absolute;
   background-color: #494748;
 }
@@ -143,34 +124,41 @@ position:absolute;
     }
 /*___*/
 #award {
-  height: 335px;
+  height: 320px;
   width:180px;
-  top: 840px;
+  top: 600px;
   position: absolute;
   background-color: #494748;
-
+  border-bottom-right-radius:5%;
+  border-bottom-left-radius: 5%;
 }
 .award-content {
   margin: auto 10px auto auto;
 }
-/* _________________INSIDE SOCIAL BAR (top right)_________________ */
+/* _________________Home Button_________________ */
 
 #homebox{
   position: absolute;
-  margin-left: 91.6%;
+  margin: 0 auto auto 500px;
   background-color: black;
-  width: 8.3%;
+  width: 90px;
+  height: 40px;
 }
+#homebox:hover{
+  background-color: #7a7a7a;
+}
+.socialtext {
+  text-align: center;
+  margin-top: 11px; /*change to pixel = aligned text: precentage = misalign*/
+}
+/* _________________INSIDE SOCIAL BAR (top)_________________ */
+
 .socialimg {
   margin-top: 2%;
   float: left;
   height: 40px;
   width: 40px;
   border-radius: 100%;
-}
-.socialtext {
-  text-align: center;
-  margin-top: 11px; /*change to pixel = aligned text: precentage = misalign*/
 }
 /* _________________LEFTTEXT_________________ */
 .text {
@@ -206,7 +194,7 @@ position:absolute;
   width:750px;
   height:930px;
   text-align: left;
-  margin: auto auto auto 300px;
+  margin: auto auto auto 230px; /*top right down left*/
   padding: 1%;
   color: black;
 }
@@ -220,22 +208,18 @@ position:absolute;
 }
 .L1 {
   top: 315px;
-  right: 200px;
+  right: 270px;
 }
 .L2 {
   bottom: 174px;
-  right: 200px;
+  right: 270px;
 }
 .L3 {
   top: 930px;
-  right: 200px;
+  right: 270px;
 }
 /* _________________SKILLS_________________ */
-.skill-td {
-  background-color: black;
-  border-radius: 100%;
-  border: 2px solid red;
-}
+
 .endbar { /*can use divs or HR for this but no*/
   color: grey;
   background-color: grey;
@@ -243,36 +227,61 @@ position:absolute;
   border-top-right-radius: 30%;
 }
 /*--ADDITIONAL DESIGN --*/
+
+/*--Right --*/
 .BottomCircleB {
   position: absolute;
-  margin-top: 10px;
-  margin-left: 700px;
+  bottom: -280px;
+  right: 170px;
   height: 70px;
   width: 70px;
 }
 .BottomCircleB2 {
   position: absolute;
-  margin-top: -40px;
-  margin-left: 720px;
+  bottom: -215px;
+  right: 150px;
   height: 50px;
   width: 50px;
 }
 .BottomCircleB3 {
   position: absolute;
-  margin-top: 50px;
-  margin-left: 650px;
+  bottom: -160px;
+  right: 150px;
   height: 30px;
   width: 30px;
 }
-.BottomCircleT {
+/*left*/
+.BottomLeftCircleB {
+  position: absolute;
+  bottom: -280px;
+  left: 170px;
+  height: 70px;
+  width: 70px;
+}
+.BottomLeftCircleB2 {
+  position: absolute;
+  bottom: -215px;
+  left: 150px;
+  height: 50px;
+  width: 50px;
+}
+.BottomLeftCircleB3 {
+  position: absolute;
+  bottom: -160px;
+  left: 150px;
+  height: 30px;
+  width: 30px;
+}
+/*--TOP --*/
+.TopCircleT {
   position: absolute;
   top: 120px;
-  left: 330px;
+  left: 200px;
   height: 70px;
   width: 70px;
 }
 
-.BottomCircleT2 {
+.TopCircleT2 {
   position: absolute;
   top: 115px;
   left: 290px;
